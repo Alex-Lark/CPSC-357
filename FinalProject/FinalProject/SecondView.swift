@@ -63,7 +63,9 @@ struct SecondView: View {
                             Button("Delete"){
                                 currentTaskNumber = task
                                 currentTaskList.deleteTask(number: currentTaskNumber)
-                                repeatsList.deleteRepeating(inputTask: taskListList.getCurrentTaskList().getTask(number: currentTaskNumber - 1))
+                                if (task > 0){
+                                    repeatsList.deleteRepeating(inputTask: taskListList.getCurrentTaskList().getTask(number: currentTaskNumber - 1))
+                                }
                                 
                             }
                         }
