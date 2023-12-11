@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22225" systemVersion="22G313" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="TaskCD" representedClassName="TaskCD" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="repeats" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="repeatsFriday" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="repeatsMonday" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="repeatsSaturday" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="repeatsSunday" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="repeatsThursday" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="repeatsTuesday" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="repeatsWednesday" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="taskCompleted" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+    </entity>
+</model>
